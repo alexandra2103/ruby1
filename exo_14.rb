@@ -1,8 +1,10 @@
-print "Insèrenton prénom"
-prenom = gets.chomp
-print "Insère ton prenom"
-fnom = gets.chompnombre = 02
-
+n = 2
 25.times do
-if nombre < 10
-    puts "#"
+    if n < 10 
+        puts "jean.dupont.0#{n}@email.fr"
+        n += 2
+    else
+        puts "jean.dupont.#{n}@email.fr"
+        n += 2
+    end
+end

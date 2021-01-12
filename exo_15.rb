@@ -1,5 +1,10 @@
-puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu en 1 et 25?"
+puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
 print ">"
-reponse = gets.chomp.to_i
+stairs = gets.chomp.to_i
+step = 1
+until step == stairs + 1
+    puts "# " * step
+    step = step + 1
+end
 
 
